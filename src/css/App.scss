@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+ }
+
+
+.App {
+    width: 100%;
+    // margin: auto;
+    background-color: #000;
+}
+
+.navbar {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px 30px 0px;
+
+    .navbar-logo {
+        h1 {
+            font-size: 30px;
+            color: #fff;
+            font-family: 'Anton', sans-serif;
+            font-weight: 100;
+        }
+    }
+
+    .navbar-subsites {
+        display: flex;
+        flex-direction: row;
+
+        .subsite-text-container {
+            margin: auto 10px auto 10px;
+            display: flex;
+            flex-direction: row;
+            color: #fff;
+            font-family: 'Maven Pro', sans-serif;
+
+            .subsites-text {
+                font-size: 15px;
+                font-weight: 200;
+                color: #fff;
+                margin: auto;
+                
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+            h3 {
+                color: rgba(255, 255, 255, 0.76); 
+                font-size: 15px;
+                font-weight: 200;
+                margin: 0px 10px 0px 10px;
+                opacity: 0%;
+                transition: all 0.5s ease;
+            }
+
+            .text-hovered {
+                opacity: 100%;
+            }
+        }   
+    }
+}

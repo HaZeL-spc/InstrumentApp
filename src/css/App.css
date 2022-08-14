@@ -1,0 +1,77 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  width: 100%;
+  background-color: #000;
+}
+
+.navbar {
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 0px 30px 0px;
+}
+
+.navbar .navbar-logo h1 {
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Anton', sans-serif;
+  font-weight: 100;
+}
+
+.navbar .navbar-subsites {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.navbar .navbar-subsites .subsite-text-container {
+  margin: auto 10px auto 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #fff;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.navbar .navbar-subsites .subsite-text-container .subsites-text {
+  font-size: 15px;
+  font-weight: 200;
+  color: #fff;
+  margin: auto;
+}
+
+.navbar .navbar-subsites .subsite-text-container .subsites-text:hover {
+  cursor: pointer;
+}
+
+.navbar .navbar-subsites .subsite-text-container h3 {
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 15px;
+  font-weight: 200;
+  margin: 0px 10px 0px 10px;
+  opacity: 0%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.navbar .navbar-subsites .subsite-text-container .text-hovered {
+  opacity: 100%;
+}
+/*# sourceMappingURL=App.css.map */
