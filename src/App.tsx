@@ -1,11 +1,15 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import './css/App.css';
+import React from "react";
+import MainVideo from "./components/MainVideo";
+import Navbar from "./components/Navbar";
+import SlidesMain from "./components/SlidesMain";
+import "./css/App.css";
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar />
+      <MainVideo />
+      <SlidesMain />
     </div>
   );
 }
