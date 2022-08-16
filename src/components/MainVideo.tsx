@@ -1,5 +1,5 @@
 import React from "react";
-import cinematicVideo from "./cinematicVideo.mp4";
+import cinematicVideo from "../video/cinematicVideo.mp4";
 
 const MainVideo = () => {
   return (

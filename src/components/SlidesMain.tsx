@@ -38,6 +38,12 @@ const SlidesMain = () => {
           class="asset-holder"
         />
       </div>
+      <div className="explore-our-work-div">
+        <h2>Explore a few of our most impactful projects</h2>
+        <button className="instrument-button">
+          Our Work <HiArrowSmRight />
+        </button>
+      </div>
     </div>
   );
 };

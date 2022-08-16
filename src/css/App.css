@@ -27,7 +27,7 @@
 }
 
 .navbar .navbar-logo h1 {
-  font-size: 30px;
+  font-size: 1.875em;
   color: #fff;
   font-family: 'Anton', sans-serif;
   font-weight: 100;
@@ -57,7 +57,7 @@
 }
 
 .navbar .navbar-subsites .subsite-text-container .subsites-text {
-  font-size: 15px;
+  font-size: 0.94em;
   font-weight: 200;
   color: #fff;
   margin: auto;
@@ -70,7 +70,7 @@
 
 .navbar .navbar-subsites .subsite-text-container h3 {
   color: rgba(255, 255, 255, 0.76);
-  font-size: 15px;
+  font-size: 0.94em;
   font-weight: 200;
   margin: auto 10px auto 10px;
   text-align: center;
@@ -100,6 +100,21 @@
           justify-content: center;
 }
 
+.instrument-button {
+  width: 200px;
+  height: 60px;
+  border-radius: 50px;
+  font-size: 1em;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  font-family: 'Maven Pro', sans-serif;
+  cursor: pointer;
+}
+
+.instrument-button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 .slides-main-div .slides-main-div-quote {
   width: 55%;
   margin: auto;
@@ -108,7 +123,7 @@
 
 .slides-main-div .slides-main-div-quote h2 {
   text-align: center;
-  font-size: 60px;
+  font-size: 3.75em;
   font-family: 'Maven Pro', sans-serif;
   color: #fff;
 }
@@ -126,6 +141,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   height: 100%;
   padding-bottom: 200px;
 }
@@ -138,7 +156,7 @@
 }
 
 .slides-main-div .slides-of-assets .asset-holder .text-about {
-  width: 60%;
+  width: 35%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -149,9 +167,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
   gap: 10%;
   opacity: 0%;
   -webkit-transition: all 0.7s ease;
@@ -159,24 +177,10 @@
 }
 
 .slides-main-div .slides-of-assets .asset-holder .text-about h2 {
-  width: 80%;
+  width: 90%;
   color: #fff;
   font-family: 'Maven Pro', sans-serif;
-  text-align: left;
-  font-size: 35px;
-}
-
-.slides-main-div .slides-of-assets .asset-holder .text-about button {
-  width: 200px;
-  height: 70px;
-  border-radius: 50px;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-  cursor: pointer;
-}
-
-.slides-main-div .slides-of-assets .asset-holder .text-about button:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 2em;
 }
 
 .slides-main-div .slides-of-assets .asset-holder .show {
@@ -188,5 +192,281 @@
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+}
+
+.slides-main-div .slides-of-assets .asset-holder-second .text-about {
+  margin-left: 5%;
+}
+
+.slides-main-div .explore-our-work-div {
+  width: 30%;
+  padding-bottom: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.slides-main-div .explore-our-work-div h2 {
+  color: #fff;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 2.82em;
+  padding-bottom: 30px;
+}
+
+.company-helped-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 85%;
+  margin: auto;
+  gap: 5%;
+}
+
+.company-helped-div .company-helped {
+  width: 50%;
+  margin-bottom: 200px;
+  cursor: pointer;
+}
+
+.company-helped-div .company-helped .photo-of-work {
+  width: 100%;
+}
+
+.company-helped-div .company-helped .work-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: left;
+}
+
+.company-helped-div .company-helped .work-description div, .company-helped-div .company-helped .work-description p {
+  margin-top: 20px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  color: #fff;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.company-helped-div .company-helped .work-description p {
+  line-height: 1.6;
+}
+
+.company-helped-div .company-helped .work-description h1 {
+  width: 70%;
+  font-size: 2em;
+}
+
+.brands-icon-slider {
+  width: 50%;
+  margin: 200px auto 0px auto;
+  padding-bottom: 500px;
+  position: relative;
+}
+
+.brands-icon-slider .brand-icon-container {
+  width: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20%;
+}
+
+.brands-icon-slider .brand-icon-container .brand-icon {
+  width: 20%;
+}
+
+.brands-icon-slider .brand-icon-container .show {
+  opacity: 100%;
+  -webkit-animation-name: transitionShow;
+          animation-name: transitionShow;
+  -webkit-animation-duration: 0.15s;
+          animation-duration: 0.15s;
+}
+
+.brands-icon-slider .brand-icon-container .unshow {
+  opacity: 0%;
+  -webkit-animation-name: transitionUnshow;
+          animation-name: transitionUnshow;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+}
+
+@-webkit-keyframes transitionShow {
+  from {
+    opacity: 0%;
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
+  }
+  to {
+    opacity: 100%;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes transitionShow {
+  from {
+    opacity: 0%;
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
+  }
+  to {
+    opacity: 100%;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@-webkit-keyframes transitionUnshow {
+  from {
+    opacity: 100%;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  to {
+    opacity: 0%;
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
+  }
+}
+
+@keyframes transitionUnshow {
+  from {
+    opacity: 100%;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  to {
+    opacity: 0%;
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
+  }
+}
+
+.love-to-work-div {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+.love-to-work-div h1 {
+  color: #fff;
+  font-size: 4em;
+  font-family: 'Maven Pro', sans-serif;
+  margin-bottom: 40px;
+}
+
+.footer-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-bottom: 70px;
+  width: 90%;
+  margin: auto;
+}
+
+.footer-div .media-part {
+  margin-left: auto;
+  margin-top: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-div .media-part button, .footer-div .media-part .footer-img {
+  margin-left: 20px;
+}
+
+.footer-div .media-part .footer-button {
+  font-family: 'Maven Pro', sans-serif;
+  background-color: #000;
+  color: #fff;
+  border: 2px white solid;
+  border-radius: 40px;
+  font-size: 1em;
+  width: 200px;
+  height: 60px;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.footer-div .media-part .footer-button:hover {
+  border-color: #979797;
+}
+
+.footer-div .media-part .footer-img {
+  width: 35px;
+  height: 35px;
+}
+
+.footer-div .navbar-subsites {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 20%;
+      grid-template-columns: 20% 20%;
+}
+
+.footer-div .navbar-subsites .subsite-text-container {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #fff;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.footer-div .navbar-subsites .subsite-text-container .subsites-text {
+  font-size: 0.94em;
+  font-weight: 200;
+  color: #fff;
+  margin: 0px 10px 0px 10px;
+}
+
+.footer-div .navbar-subsites .subsite-text-container .subsites-text:hover {
+  cursor: pointer;
+}
+
+.footer-div .navbar-subsites .subsite-text-container h3 {
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 0.94em;
+  font-weight: 200;
+  margin: auto 0px auto 0px;
+  text-align: center;
+  opacity: 0%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  cursor: default;
+}
+
+.footer-div .navbar-subsites .subsite-text-container .text-hovered {
+  opacity: 100%;
 }
 /*# sourceMappingURL=App.css.map */

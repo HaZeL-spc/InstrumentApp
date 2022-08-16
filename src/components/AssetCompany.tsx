@@ -34,7 +34,7 @@ function AssetCompany(props: propsPassed) {
       <img ref={ref} src={props.image} className="assets-photo"></img>
       <div className="text-about">
         <h2>{props.text}</h2>
-        <button>
+        <button className="instrument-button">
           Read More
           <HiArrowSmRight style={{ paddingLeft: "5px" }} />
         </button>
