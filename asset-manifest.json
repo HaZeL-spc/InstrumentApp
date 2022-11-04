@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/InstrumentApp/static/css/main.3284e015.css",
-    "main.js": "/InstrumentApp/static/js/main.31ddd827.js",
+    "main.css": "/InstrumentApp/static/css/main.a8f5ab97.css",
+    "main.js": "/InstrumentApp/static/js/main.3660cb34.js",
     "static/media/cinematicVideo.mp4": "/InstrumentApp/static/media/cinematicVideo.55de8bb9b37d4347bbb3.mp4",
     "static/media/CEO.jpg": "/InstrumentApp/static/media/CEO.88d84e95d36f5605aab6.jpg",
     "static/media/gucciPhoto.jpg": "/InstrumentApp/static/media/gucciPhoto.6e39158ec576ecfb7cc0.jpg",
@@ -9,11 +9,11 @@
     "static/media/interestingPhoto.jpg": "/InstrumentApp/static/media/interestingPhoto.9e6f1af0c201c7edc303.jpg",
     "static/media/phonePhoto.jpg": "/InstrumentApp/static/media/phonePhoto.be825f25b2aec787e867.jpg",
     "index.html": "/InstrumentApp/index.html",
-    "main.3284e015.css.map": "/InstrumentApp/static/css/main.3284e015.css.map",
-    "main.31ddd827.js.map": "/InstrumentApp/static/js/main.31ddd827.js.map"
+    "main.a8f5ab97.css.map": "/InstrumentApp/static/css/main.a8f5ab97.css.map",
+    "main.3660cb34.js.map": "/InstrumentApp/static/js/main.3660cb34.js.map"
   },
   "entrypoints": [
-    "static/css/main.3284e015.css",
-    "static/js/main.31ddd827.js"
+    "static/css/main.a8f5ab97.css",
+    "static/js/main.3660cb34.js"
   ]
 }
