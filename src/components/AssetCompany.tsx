@@ -9,7 +9,7 @@ interface propsPassed {
 }
 
 function AssetCompany(props: propsPassed) {
-  const { ref, inView, entry } = useInView({ threshold: 0.1 });
+  const { ref, inView, entry } = useInView({ threshold: 0.8 });
   const [hasAlreadyChanged, setHasAlreadyChanged] = useState(false);
   //   console.log(inView);
 
@@ -31,7 +31,7 @@ function AssetCompany(props: propsPassed) {
 
   return (
     <div className={props.class}>
-      <img ref={ref} src={props.image} className="assets-photo"></img>
+      <img ref={ref} src={props.image} alt="error" className="assets-photo"></img>
       <div className="text-about">
         <h2>{props.text}</h2>
         <button className="instrument-button">

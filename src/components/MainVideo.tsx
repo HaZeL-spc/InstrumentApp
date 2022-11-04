@@ -3,7 +3,7 @@ import cinematicVideo from "../video/cinematicVideo.mp4";
 
 const MainVideo = () => {
   return (
-    <div className="main-video-div">
+    <div className="main-video-div" id="what-we-do">
       {/* <video autoPlay loop playsInline className='main-video' width="250"> */}
       <video autoPlay muted loop playsInline className="main-video">
         <source src={cinematicVideo} type="video/mp4" />

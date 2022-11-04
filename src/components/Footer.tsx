@@ -129,9 +129,11 @@ const Footer = () => {
       </div>
       <div className="media-part">
         <button className="footer-button">Newsletter</button>
+        <div>
         <img src={instagramFooterIcon} className="footer-img"></img>
         <img src={linkedinFooterIcon} className="footer-img"></img>
         <img src={twitterFooterIcon} className="footer-img"></img>
+        </div>
       </div>
     </div>
   );

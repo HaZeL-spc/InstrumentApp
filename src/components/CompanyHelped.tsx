@@ -4,7 +4,7 @@ import gucciPhoto from "../images/gucciPhoto.jpg";
 
 const CompanyHelped = () => {
   return (
-    <div className="company-helped-div">
+    <div className="company-helped-div" id="being-here">
       <div className="company-helped">
         <img src={birdPhoto} className="photo-of-work"></img>
         <section className="work-description">

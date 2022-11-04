@@ -87,26 +87,26 @@ const BrandsWorked = () => {
   };
 
   return (
-    <div className="brands-icon-slider">
+    <div className="brands-icon-slider" id="careers">
       <div className="brand-icon-container" ref={firstDiv}>
-        <img src={firstIcons[0]} className="brand-icon show"></img>
-        <img src={secondIcons[0]} className="brand-icon show"></img>
-        <img src={thirdIcons[0]} className="brand-icon show"></img>
+        <img src={firstIcons[0]} className="brand-icon show" alt="error"></img>
+        <img src={secondIcons[0]} className="brand-icon show" alt="error"></img>
+        <img src={thirdIcons[0]} className="brand-icon show" alt="error"></img>
       </div>
       <div className="brand-icon-container" ref={secondDiv}>
-        <img src={firstIcons[1]} className="brand-icon unshow"></img>
-        <img src={secondIcons[1]} className="brand-icon unshow"></img>
-        <img src={thirdIcons[1]} className="brand-icon unshow"></img>
+        <img src={firstIcons[1]} className="brand-icon unshow" alt="error"></img>
+        <img src={secondIcons[1]} className="brand-icon unshow" alt="error"></img>
+        <img src={thirdIcons[1]} className="brand-icon unshow" alt="error"></img>
       </div>
       <div className="brand-icon-container" ref={thirdDiv}>
-        <img src={firstIcons[2]} className="brand-icon unshow"></img>
-        <img src={secondIcons[2]} className="brand-icon unshow"></img>
-        <img src={thirdIcons[2]} className="brand-icon unshow"></img>
+        <img src={firstIcons[2]} className="brand-icon unshow" alt="error"></img>
+        <img src={secondIcons[2]} className="brand-icon unshow" alt="error"></img>
+        <img src={thirdIcons[2]} className="brand-icon unshow" alt="error"></img>
       </div>
       <div className="brand-icon-container" ref={fourthDiv}>
-        <img src={firstIcons[3]} className="brand-icon unshow"></img>
-        <img src={secondIcons[3]} className="brand-icon unshow"></img>
-        <img src={thirdIcons[3]} className="brand-icon unshow"></img>
+        <img src={firstIcons[3]} className="brand-icon unshow" alt="error"></img>
+        <img src={secondIcons[3]} className="brand-icon unshow" alt="error"></img>
+        <img src={thirdIcons[3]} className="brand-icon unshow" alt="error"></img>
       </div>
     </div>
   );

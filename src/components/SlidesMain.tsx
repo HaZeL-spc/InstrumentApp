@@ -8,7 +8,7 @@ import AssetCompany from "./AssetCompany";
 
 const SlidesMain = () => {
   return (
-    <div className="slides-main-div">
+    <div className="slides-main-div" id="who-we-are">
       <div className="slides-main-div-quote">
         <h2>
           We enrich human lives through the thoughtful application of design and
